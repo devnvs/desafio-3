@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    color: #5D5D7D;
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container-left {
+    display: inline-block;
+    width: 60%;
+    margin-top: 15%;
+    padding-left: 136px;
+}
+
+.container-right {
+    display: inline-block;
+    width: 40%;
+    height: 100vh;
+    background: rgba(93, 93, 125, 0.16);
+    position: absolute;
+}
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    text-align: left;
+    width: 368px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 48px;
+    text-align: left;
+    opacity: 60%;
+    margin: 15px 0px;
+    width: 540px;
+}
+
+button {
+    font-size: 24px;
+    line-height: 35.57px;
+    text-align: center;
+    width: 269px;
+    height: 62px;
+    top: -625px;
+    left: -6773px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+    border-radius: 30px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .5;
+}
+
+a {
+    font-size: 28px;
+    line-height: 41.5px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 41px;
+}
+
+a:nth-child(2) {
+    opacity: 40%;
+}
+
+a:hover {
+    opacity: .4;
+}
+
+a:active {
+    opacity: .8;
+}
+
+.header {
+    margin: 24px 0px 0px 57px;
+}
+
+img {
+    position: relative;
+    top: 10%;
+    right: 120px;
+    width: 405px;
+}
+
+@media screen and (max-width: 1230px) {
+
+    .container-left {
+        height: 50%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-right {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: 40px;
+    }
+
+    img {
+        position: static;
+        width: 90%;
+        height: auto;
+        top: 443px;
+        left: 51px;
+    }
+
+    .header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        width: auto;
+        margin: 58px 50px 15px 58px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        margin: 15px 40px;
+        width: auto;
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+    }
+}
